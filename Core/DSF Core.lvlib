@@ -38,70 +38,7 @@
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Data Viewer" Type="Folder">
-				<Item Name="Buffer Reader" Type="Folder">
-					<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
-					<Item Name="Buffer Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
-					<Item Name="Buffer View.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Buffer View.ctl"/>
-					<Item Name="Read Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Read Buffer.vi"/>
-				</Item>
-				<Item Name="Item Tree" Type="Folder">
-					<Item Name="Add Buffer Data to Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffer Data to Variant.vi"/>
-					<Item Name="Add Item to Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item to Tree.vi"/>
-					<Item Name="Add Item with Setting.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item with Setting.vi"/>
-					<Item Name="Add Plugin with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Plugin with Children.vi"/>
-					<Item Name="Add Plugin.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Plugin.vi"/>
-					<Item Name="Add Transfer Group with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group with Children.vi"/>
-					<Item Name="Add Transfer Group.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group.vi"/>
-					<Item Name="Add Transfer with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer with Children.vi"/>
-					<Item Name="Add Transfers Buffers with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfers Buffers with Children.vi"/>
-					<Item Name="Clear Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Clear Tree.vi"/>
-					<Item Name="Create Framework.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Framework.vi"/>
-					<Item Name="Create New Tree Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
-					<Item Name="Create Plugin Groups.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
-					<Item Name="Create Plugins.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
-					<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
-					<Item Name="Get Item Display Name.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
-					<Item Name="Get Item Type.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
-					<Item Name="Is Item Preloaded.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded.vi"/>
-					<Item Name="Load All Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
-					<Item Name="Select First Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Select First Item.vi"/>
-					<Item Name="Tree Item Type.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
-					<Item Name="Tree Item.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Tree Item.ctl"/>
-				</Item>
-				<Item Name="Main VI" Type="Folder">
-					<Item Name="Application Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Application Data.ctl"/>
-					<Item Name="Create Menus.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Create Menus.vi"/>
-					<Item Name="Display Tree Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Display Tree Item.vi"/>
-					<Item Name="Highlight Text.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Highlight Text.vi"/>
-					<Item Name="Initialize Strings.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Strings.vi"/>
-					<Item Name="Initialize Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Tree.vi"/>
-					<Item Name="Initialize UI.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize UI.vi"/>
-					<Item Name="Initialize Values Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Values Buffer.vi"/>
-					<Item Name="Load and Open All Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Load and Open All Items.vi"/>
-					<Item Name="Load Framework.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Load Framework.vi"/>
-					<Item Name="No File Loaded Message.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/No File Loaded Message.vi"/>
-					<Item Name="Prepare for Close.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Prepare for Close.vi"/>
-					<Item Name="Queue Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Queue Data.ctl"/>
-					<Item Name="Request Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Request Buffer.vi"/>
-					<Item Name="Reset Values String Position.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Reset Values String Position.vi"/>
-					<Item Name="Send Buffer Data to Reader.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Send Buffer Data to Reader.vi"/>
-					<Item Name="Set UI Busy State.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Set UI Busy State.vi"/>
-					<Item Name="Update Values Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Update Values Buffer.vi"/>
-					<Item Name="Values Channels.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values Channels.ctl"/>
-					<Item Name="Values String Changed.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values String Changed.vi"/>
-					<Item Name="Values String Mouse Down.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values String Mouse Down.vi"/>
-					<Item Name="View Mode.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/View Mode.ctl"/>
-					<Item Name="Viewer Connect to Server.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Viewer Connect to Server.vi"/>
-					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
-			<Item Name="DSF Version.vi" Type="VI" URL="../VIs/DSF Version.vi"/>
-			<Item Name="Find Component Configuration.vi" Type="VI" URL="../VIs/Find Component Configuration.vi"/>
 			<Item Name="Internal Components.vi" Type="VI" URL="../Classes/Framework/Internal Components.vi"/>
-			<Item Name="Verison Cluster to String.vi" Type="VI" URL="../VIs/Verison Cluster to String.vi"/>
-			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -182,14 +119,6 @@
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Classes/Transfer/Transfer.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Channel Configuration.ctl"/>
-				<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Framework Configuration.ctl"/>
-				<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Configuration.ctl"/>
-				<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Thread Configuration.ctl"/>
-				<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Configuration.ctl"/>
-				<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
-			</Item>
 			<Item Name="DSF Buffer Subset Descriptor.ctl" Type="VI" URL="../Classes/Thread/Data Server/DSF Buffer Subset Descriptor.ctl"/>
 			<Item Name="DSF Buffer Type.ctl" Type="VI" URL="../Typedefs/DSF Buffer Type.ctl"/>
 			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Typedefs/DSF Byte Order.ctl"/>
@@ -200,7 +129,14 @@
 			<Item Name="DSF Configuration ID.ctl" Type="VI" URL="../Typedefs/DSF Configuration ID.ctl"/>
 			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Typedefs/DSF Data Type.ctl"/>
 			<Item Name="DSF Direction.ctl" Type="VI" URL="../Typedefs/DSF Direction.ctl"/>
+			<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Channel Configuration.ctl"/>
+			<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Framework Configuration.ctl"/>
+			<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Configuration.ctl"/>
+			<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Thread Configuration.ctl"/>
+			<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Configuration.ctl"/>
+			<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
 			<Item Name="DSF Group Info.ctl" Type="VI" URL="../Typedefs/DSF Group Info.ctl"/>
+			<Item Name="DSF Performance Metrics.ctl" Type="VI" URL="../Classes/Thread/Data Server/DSF Performance Metrics.ctl"/>
 			<Item Name="DSF Performance Options.ctl" Type="VI" URL="../Typedefs/DSF Performance Options.ctl"/>
 			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Typedefs/DSF Plugin Info.ctl"/>
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Typedefs/DSF Settings Info.ctl"/>
@@ -211,17 +147,6 @@
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Components" Type="Folder">
-				<Item Name="Add Component Configuration.vi" Type="VI" URL="../VIs/Add Component Configuration.vi"/>
-				<Item Name="Add Component Default Settings.vi" Type="VI" URL="../VIs/Add Component Default Settings.vi"/>
-			</Item>
-			<Item Name="Utilities" Type="Folder">
-				<Item Name="Async" Type="Folder">
-					<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
-				</Item>
-				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
-				<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration Session/Edit Configuration File.vi"/>
-			</Item>
 			<Item Name="Viewer API" Type="Folder">
 				<Item Name="Connect to Data Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Connect to Data Server.vi"/>
 				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
