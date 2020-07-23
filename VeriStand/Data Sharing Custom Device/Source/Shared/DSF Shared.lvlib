@@ -47,11 +47,9 @@
 		<Item Name="Get Debug.vi" Type="VI" URL="../Get Debug.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
 		<Item Name="Get Framework Configuration.vi" Type="VI" URL="../Get Framework Configuration.vi"/>
-		<Item Name="Get Launch Viewer Property.vi" Type="VI" URL="../Get Launch Viewer Property.vi"/>
 		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>
 		<Item Name="Set Debug.vi" Type="VI" URL="../Set Debug.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
-		<Item Name="Set Launch Viewer Property.vi" Type="VI" URL="../Set Launch Viewer Property.vi"/>
 	</Item>
 	<Item Name="Sections" Type="Folder">
 		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>

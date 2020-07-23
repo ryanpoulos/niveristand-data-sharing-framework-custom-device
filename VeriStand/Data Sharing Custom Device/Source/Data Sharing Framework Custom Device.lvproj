@@ -25,6 +25,96 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
 		<Item Name="Custom Device Data Sharing Framework.xml" Type="Document" URL="../Custom Device Data Sharing Framework.xml"/>
+		<Item Name="Data Viewer.lvlibp" Type="LVLibp" URL="../Data Viewer.lvlibp">
+			<Item Name="Buffer Reader" Type="Folder">
+				<Item Name="Buffer Data.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
+				<Item Name="Queue Data.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Buffer Reader/Queue Data.ctl"/>
+				<Item Name="Read Buffer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Buffer Reader/Read Buffer.vi"/>
+				<Item Name="Request Buffer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Buffer Reader/Request Buffer.vi"/>
+			</Item>
+			<Item Name="Item Tree" Type="Folder">
+				<Item Name="Add Buffer Data to Variant.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Buffer Data to Variant.vi"/>
+				<Item Name="Add Item to Tree.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Item to Tree.vi"/>
+				<Item Name="Add Plugin with Children.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Plugin with Children.vi"/>
+				<Item Name="Add Transfer Group with Children.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Transfer Group with Children.vi"/>
+				<Item Name="Add Transfer with Children.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Transfer with Children.vi"/>
+				<Item Name="Add Transfers Buffers with Children.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Add Transfers Buffers with Children.vi"/>
+				<Item Name="Clear Tree.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Clear Tree.vi"/>
+				<Item Name="Create Framework.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Create Framework.vi"/>
+				<Item Name="Create New Tree Item.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
+				<Item Name="Create Plugin Groups.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
+				<Item Name="Create Plugins.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
+				<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
+				<Item Name="Is Item Preloaded.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Is Item Preloaded.vi"/>
+				<Item Name="Load All Subitems.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
+				<Item Name="Tree Item Type.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Tree Item Type.ctl"/>
+				<Item Name="Tree Item.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Item Tree/Tree Item.ctl"/>
+			</Item>
+			<Item Name="Main VI" Type="Folder">
+				<Item Name="Application Data.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Application Data.ctl"/>
+				<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Base 10 Digit Count.vi"/>
+				<Item Name="Display Tree Item.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Display Tree Item.vi"/>
+				<Item Name="Highlight Text.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Highlight Text.vi"/>
+				<Item Name="Initialize Strings.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Initialize Strings.vi"/>
+				<Item Name="Initialize Tree.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Initialize Tree.vi"/>
+				<Item Name="Initialize UI.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Initialize UI.vi"/>
+				<Item Name="Initialize Values Buffer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Initialize Values Buffer.vi"/>
+				<Item Name="Load and Open All Items.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Load and Open All Items.vi"/>
+				<Item Name="Load Framework.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Load Framework.vi"/>
+				<Item Name="Prepare for Close.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Prepare for Close.vi"/>
+				<Item Name="Reset Values String Position.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Reset Values String Position.vi"/>
+				<Item Name="Send Buffer Data to Reader.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Send Buffer Data to Reader.vi"/>
+				<Item Name="Set UI Busy State.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Set UI Busy State.vi"/>
+				<Item Name="Update Values Buffer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Update Values Buffer.vi"/>
+				<Item Name="Values Channels.ctl" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Values Channels.ctl"/>
+				<Item Name="Values String Changed.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Values String Changed.vi"/>
+				<Item Name="Values String Mouse Down.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Values String Mouse Down.vi"/>
+				<Item Name="Viewer Connect to Server.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Main VI/Viewer Connect to Server.vi"/>
+			</Item>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
+			<Item Name="Check Special Tags.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
+			<Item Name="Data Viewer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Data Viewer.vi"/>
+			<Item Name="Details Display Dialog.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
+			<Item Name="DialogType.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+			<Item Name="Error Code Database.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+			<Item Name="ErrWarn.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
+			<Item Name="eventvkey.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
+			<Item Name="Find Tag.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
+			<Item Name="Format Message String.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
+			<Item Name="General Error Handler.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+			<Item Name="GetHelpDir.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
+			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+			<Item Name="Launch Data Viewer.vi" Type="VI" URL="../Data Viewer.lvlibp/Development Tools/Data Viewer/Source/Launch Data Viewer.vi"/>
+			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+			<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+			<Item Name="LVFontTypeDef.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
+			<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+			<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Memory Manager.lvlib"/>
+			<Item Name="Not Found Dialog.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
+			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+			<Item Name="Set Bold Text.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+			<Item Name="Set Busy.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Busy.vi"/>
+			<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+			<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+			<Item Name="Set Cursor.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor.vi"/>
+			<Item Name="Set String Value.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
+			<Item Name="Simple Error Handler.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+			<Item Name="Static Errors.lvlib" Type="Library" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Static Errors.lvlib"/>
+			<Item Name="TagReturnType.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+			<Item Name="Three Button Dialog.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+			<Item Name="Trim Whitespace.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+			<Item Name="Unset Busy.vi" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Unset Busy.vi"/>
+			<Item Name="whitespace.ctl" Type="VI" URL="../Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+		</Item>
 		<Item Name="DSF Engine.lvlib" Type="Library" URL="../Engine/DSF Engine.lvlib"/>
 		<Item Name="DSF Shared.lvlib" Type="Library" URL="../Shared/DSF Shared.lvlib"/>
 		<Item Name="DSF System Explorer.lvlib" Type="Library" URL="../System Explorer/DSF System Explorer.lvlib"/>
@@ -271,7 +361,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="Launch Data Viewer.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Launch Data Viewer.vi"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
